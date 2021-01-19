@@ -8,6 +8,7 @@ on:
 jobs:
   deploy_containers:
     name: Build and deploy container images
+    if: ${{ github.repository_owner == 'siemens' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo

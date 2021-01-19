@@ -43,6 +43,7 @@ jobs:
 
   deploy_containers:
     name: Build and deploy container images
+    if: ${{ github.repository_owner == 'siemens' }}
     needs: perform_tests
     runs-on: ubuntu-latest
     steps:
