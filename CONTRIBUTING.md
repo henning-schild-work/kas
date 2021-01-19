@@ -50,6 +50,11 @@ Contribution Checklist
 - send reminder if nothing happened after about a week
 
 
+### Use github workflows on your fork for some QA
+
+The repository contains code for a CI pipeline on github. If you push your
+changes into a branch called "next" on your fork, that CI should get triggered.
+
 Developer's Certificate of Origin 1.1
 -------------------------------------
 
